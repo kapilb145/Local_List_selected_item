@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/RL2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FFFFFF">
+
+
+        <TextView
+            android:id="@+id/AboutApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Create your own"
+            android:textColor="#5E4883"
+            android:textSize="22sp" />
+
+
+        <ImageView
+            android:id="@+id/inform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_clear" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#636A8D" />
+
+
+    <EditText
+        android:id="@+id/AddChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Add Channel"
+        android:textColor="#5E4883"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+  <Button
+      android:id="@+id/ChannelConnect"
+      android:layout_width="wrap_content"
+      android:layout_height="38dp"
+      android:padding="10dp"
+      android:layout_marginTop="25dp"
+      android:layout_gravity="center"
+      android:text="connect it to be channel"
+      android:textAllCaps="false"
+      android:background="@drawable/roundbutton1"
+      android:backgroundTint="#5e4883"
+      android:textStyle="bold"
+      android:layout_marginBottom="10dp"
+      android:textColor="#FFFFFF"/>
+</LinearLayout>

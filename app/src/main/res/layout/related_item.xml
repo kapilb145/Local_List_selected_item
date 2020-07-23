@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/MarkouImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Related"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_report" />
+
+    <TextView
+        android:id="@+id/Markou_Pharmacis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MarkouImg"
+        android:layout_marginLeft="25dp"
+        android:text="Markou Pharmacists"
+        android:textColor="#5E4883"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/close1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right|center"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_clear" />
+
+
+</RelativeLayout>
